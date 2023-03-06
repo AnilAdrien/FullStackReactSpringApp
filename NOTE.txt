@@ -1,0 +1,3 @@
+This project is composed of a Backend developped in Java Spring Boot and a Front End part developped in React JS
+Launch the Java Spring boot app in Spring Boot tool or Intellij and the front end part in VS Code.
+Before launching the React App, type in your VS Code terminal npm install
