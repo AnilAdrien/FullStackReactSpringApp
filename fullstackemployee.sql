@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Lun 06 Mars 2023 à 17:17
+-- Généré le :  Lun 06 Mars 2023 à 17:19
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -39,25 +39,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `email`, `name`, `username`) VALUES
-(1, 'adrien.dewinter@cap.com', 'DE WINTER', 'Adrien'),
-(152, 'charles.dartagnan@cap.com', 'D''ARTAGNAN', 'Charles');
-
--- --------------------------------------------------------
-
---
--- Structure de la table `user_seq`
---
-
-CREATE TABLE IF NOT EXISTS `user_seq` (
-  `next_val` bigint(20) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Contenu de la table `user_seq`
---
-
-INSERT INTO `user_seq` (`next_val`) VALUES
-(251);
+(1, 'adrien.dewinter@test.com', 'DE WINTER', 'Adrien'),
+(152, 'charles.dartagnan@test.com', 'D''ARTAGNAN', 'Charles');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
